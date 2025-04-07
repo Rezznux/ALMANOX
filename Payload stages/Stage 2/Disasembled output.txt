@@ -1,4 +1,4 @@
-C:\Users\rezzn\Downloads\Carved Payload Shellcode>python batch-dissembly.py
+
 ================================================================================
 == carved_payload_stage2_x45_decrypted_carved_0_mz.bin ==
 ================================================================================
