@@ -1,0 +1,377 @@
+
+================================================================================
+== carved_payload_stage2_x45_decrypted_carved_0_mz.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: int1
+0x00001005: pop        esi
+0x00001006: out        0xb3, al
+0x00001008: fist       dword ptr [edx - 0x5776ab4e]
+0x0000100e: dec        ebp
+0x0000100f: add        byte ptr [ecx + 0x43], ah
+0x00001012: call       0xcd0be194
+0x00001017: enter      0x3288, -0x6c
+0x0000101b: xchg       ecx, eax
+0x0000101c: push       eax
+0x0000101d: pop        eax
+0x0000101e: arpl       sp, bx
+0x00001020: sbb        dword ptr [ebp + 0x6c], ecx
+0x00001023: std
+0x00001024: mov        edi, dword ptr [ecx + 0x54f6cdf6]
+0x0000102a: loopne     0x1083
+0x0000102c: inc        edx
+0x0000102d: xchg       dword ptr [edx + 0x16], esi
+0x00001030: out        0x17, al
+0x00001032: wait
+0x00001033: fild       qword ptr [edx - 0x48]
+0x00001036: push       ds
+0x00001037: push       es
+0x00001038: sbb        dl, 0x4c
+0x0000103b: xchg       bh, dh
+0x0000103d: in         al, 0xda
+
+
+================================================================================
+== carved_payload_stage2_x45_decrypted_carved_1_mz.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: lodsd      eax, dword ptr [esi]
+0x00001003: scasb      al, byte ptr es:[edi]
+0x00001004: in         al, 0x2d
+0x00001006: push       esi
+0x00001007: int        0xa7
+0x00001009: and        eax, 0x783c49b6
+0x0000100e: bound      ebp, qword ptr [edx + 0x41bd8c8c]
+0x00001014: or         dl, byte ptr [ebx - 0x15]
+0x00001017: ret
+0x00001018: jae        0x108d
+0x0000101a: push       edx
+0x0000101b: in         eax, dx
+0x0000101c: jmp        0xfbc4404c
+0x00001021: mov        ah, 0xcd
+
+
+================================================================================
+== carved_payload_stage2_x45_decrypted_carved_2_mz.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+
+
+================================================================================
+== carved_payload_stage2_x99_decrypted_carved_0_mz.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: add        ebx, ecx
+0x00001004: salc
+0x00001005: adc        ebp, dword ptr [edx + 0x79e0b218]
+
+
+================================================================================
+== carved_payload_stage2_x99_decrypted_carved_1_mz.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: fld        dword ptr gs:[ecx - 0x30823af4]
+0x00001009: mov        eax, 0x133425a8
+0x0000100f: js         0x1016
+0x00001012: fmul       dword ptr [ebx + 0x62]
+0x00001015: ret
+0x00001016: cmp        al, 0x25
+0x00001018: inc        ecx
+0x00001019: lds        ebx, ptr [ebp - 0x45acc381]
+0x0000101f: aam        0x72
+0x00001021: or         byte ptr [edi + 0x11], bh
+0x00001024: std
+0x00001025: push       edi
+0x00001026: mov        esp, 0x56e5d248
+0x0000102b: inc        esi
+0x0000102c: insb       byte ptr es:[edi], dx
+0x0000102d: sub        byte ptr [ecx + edx*4 + 0xf47f773], al
+0x00001034: je         0x1031
+0x00001036: add        dl, byte ptr [ebp - 0x66]
+0x00001039: push       es
+0x0000103a: popfd
+0x0000103b: add        al, 0x11
+0x0000103d: cmp        dword ptr [ebx - 0x6de36a51], eax
+0x00001043: inc        esi
+0x00001044: lcall      0x7e36, 0x965df95b
+0x0000104b: shr        ecx, cl
+0x0000104d: mov        byte ptr [eax - 0x36428e3c], dl
+0x00001053: pop        eax
+0x00001054: add        ecx, dword ptr [eax - 0x3f]
+0x00001057: jl         0x100d
+0x00001059: jge        0xffe
+0x0000105b: mov        al, byte ptr [0xf8004e41]
+
+
+================================================================================
+== carved_payload_stage2_x99_decrypted_carved_2_mz.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: out        0x82, eax
+0x00001004: or         cl, byte ptr [ecx - 0x5b]
+0x00001007: push       edi
+0x00001008: stc
+0x00001009: and        dword ptr [esi + esi*8], ecx
+0x0000100c: jno        0x1035
+0x0000100e: scasd      eax, dword ptr es:[edi]
+0x0000100f: adc        byte ptr [eax], 0xe4
+0x00001012: mov        word ptr [ebp + 0xe5c1830], es
+0x00001018: jno        0xfb1
+0x0000101a: ror        dword ptr [esp + ecx*8 - 0x50], 1
+0x0000101e: and        dword ptr [eax], edi
+
+
+================================================================================
+== carved_payload_stage3_x45_deep_decrypted_xor2D_offset000000.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+
+
+================================================================================
+== carved_payload_stage3_x45_deep_decrypted_xor3A_offset000029.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: push       ecx
+
+
+================================================================================
+== carved_payload_stage3_x99_deep_decrypted_xor4F_offset0000CD.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: jbe        0xfa8
+0x00001004: in         eax, 0x27
+0x00001006: sbb        dword ptr [0x73fbc33f], ebp
+0x0000100c: sbb        eax, 0x39231d88
+0x00001011: add        eax, dword ptr [ecx - 0x7a]
+0x00001014: enter      -0xec1, 0x16
+0x00001018: adc        ebx, dword ptr [ecx + esi*8]
+0x0000101b: aad        0x29
+0x0000101d: int1
+0x0000101e: test       dword ptr [esp + ebx*8 + 0x36], esp
+0x00001022: mov        esp, 0x8da55366
+0x00001027: adc        byte ptr [esi - 0x4c703c2d], dh
+0x0000102d: add        eax, 0x93be6478
+0x00001032: or         esi, dword ptr [edx + 0x70]
+0x00001035: push       ebp
+0x00001036: fimul      word ptr [ebp + 0x5d]
+0x00001039: or         ch, dl
+0x0000103b: push       edi
+0x0000103c: fisubr     word ptr [ebp + 0x3c]
+0x0000103f: push       0x63
+0x00001041: and        al, byte ptr [0xb6b7a680]
+0x00001047: fisttp     word ptr [esi - 0x255d11a3]
+0x0000104d: add        al, 0xb9
+0x0000104f: sbb        dword ptr fs:[ecx], esi
+0x00001052: js         0x104d
+0x00001054: insd       dword ptr es:[edi], dx
+0x00001055: pop        eax
+0x00001056: and        eax, 0x18793bcf
+0x0000105b: push       esi
+0x0000105c: sub        eax, 0x408ca729
+0x00001061: scasd      eax, dword ptr es:[edi]
+0x00001062: add        eax, dword ptr [ebx + 0x3d712b77]
+0x00001068: mov        bl, 0xa0
+0x0000106a: inc        ebx
+0x0000106b: mov        ebp, 0x4199b81c
+0x00001070: in         eax, dx
+0x00001071: or         byte ptr [ebx], ch
+0x00001073: or         edi, dword ptr [ecx]
+0x00001075: add        eax, 0x7e71b026
+0x0000107a: imul       esi, dword ptr [0x9622dea0], 0xd4364f2e
+0x00001084: jo         0x10fc
+0x00001086: add        al, 0x28
+0x00001088: push       ds
+0x00001089: bound      eax, qword ptr [ebx]
+0x0000108b: mov        dword ptr [0x5ed70bf], eax
+0x00001090: dec        eax
+
+
+================================================================================
+== carved_payload_stage3_x99_deep_decrypted_xor63_offset000000.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: pop        esi
+0x00001003: sub        eax, 0x5688dec9
+0x00001008: sti
+0x00001009: aaa
+0x0000100a: ljmp       0x9e41:0x7b0d7ed4
+0x00001011: xchg       edi, eax
+0x00001012: test       dword ptr [0xdfefa284], ebx
+0x00001018: sub        eax, 0xfb2595a0
+0x0000101d: sub        byte ptr [edi + ebx*8], cl
+0x00001020: mov        esi, 0x123db917
+0x00001025: mov        dl, byte ptr [ebx + 0x68c25520]
+0x0000102b: enter      0xa1a, 0xd
+0x0000102f: pop        es
+0x00001030: sbb        al, 0xe8
+0x00001032: cli
+0x00001033: fistp      qword ptr [eax]
+0x00001035: inc        byte ptr [edi + ebp*4 - 0x4b]
+0x00001039: cmpsb      byte ptr [esi], byte ptr es:[edi]
+0x0000103a: jp         0x1027
+0x0000103c: pop        ebp
+0x0000103d: jbe        0x1003
+0x0000103f: fsubr      st(2)
+0x00001041: aas
+0x00001042: mov        edi, 0x1a8017fd
+0x00001047: ja         0x104e
+0x00001049: in         eax, 0x4d
+0x0000104b: xchg       di, ax
+0x0000104e: or         ecx, dword ptr [ebp - 0x5a73c8f2]
+0x00001054: push       eax
+0x00001056: mov        dh, 0x36
+0x00001058: pushfd
+0x00001059: cmp        cl, byte ptr [esi - 0x58]
+0x0000105c: stosd      dword ptr es:[edi], eax
+0x0000105d: xchg       esp, eax
+0x0000105e: lcall      0x3d28, 0x1124f4dd
+0x00001065: pop        ss
+0x00001066: in         eax, 0x91
+0x00001068: inc        esp
+0x00001069: mov        dh, 0x74
+0x0000106b: sbb        eax, 0x5ffcbe19
+0x00001070: push       ebp
+
+
+================================================================================
+== carved_payload_stage3_x99_deep_decrypted_xor7C_offset000146.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: push       es
+0x00001003: xchg       ebx, eax
+0x00001004: in         eax, dx
+0x00001005: adc        dword ptr [ebp - 0x18fa83e3], esp
+0x0000100b: inc        ebx
+0x0000100c: inc        ebp
+0x0000100d: aaa
+0x0000100e: sbb        ebp, dword ptr [0x8c903051]
+0x00001014: inc        ebx
+0x00001015: fidiv      word ptr [esi]
+0x00001017: jnp        0x1010
+0x00001019: clc
+0x0000101a: stosb      byte ptr es:[edi], al
+0x0000101b: pop        esp
+0x0000101c: xor        edx, dword ptr [esi - 0x6e06d567]
+
+
+================================================================================
+== carved_payload_stage3_x99_deep_decrypted_xorD3_offset000076.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: mov        dl, 0x78
+0x00001004: lds        eax, ptr [ebp - 0x6e243c0b]
+0x0000100a: push       eax
+0x0000100b: pop        ss
+0x0000100c: push       eax
+0x0000100d: je         0x106f
+0x0000100f: adc        eax, 0xb4f83ab6
+0x00001014: push       0x2029af54
+0x00001019: jb         0x1091
+0x0000101b: daa
+0x0000101c: sub        edi, dword ptr [ebp - 0x3d60ae39]
+0x00001022: push       ecx
+0x00001023: inc        edi
+0x00001024: scasd      eax, dword ptr es:[edi]
+0x00001025: inc        ecx
+0x00001026: sti
+0x00001027: mov        esp, 0xafffbe66
+0x0000102c: hlt
+0x0000102d: pushfd
+0x0000102e: rol        dword ptr [ebx + 0x4b], 0xf1
+0x00001032: mov        esi, 0x51877a73
+0x00001037: cmp        cl, dh
+0x00001039: inc        edi
+0x0000103a: in         al, dx
+0x0000103c: cld
+0x0000103d: out        dx, eax
+0x0000103e: or         ecx, esi
+0x00001040: fstp       dword ptr [ecx - 0x12b5370c]
+0x00001046: push       ebx
+0x00001047: cdq
+0x00001048: movsb      byte ptr es:[edi], byte ptr [esi]
+0x00001049: adc        esp, dword ptr [edx]
+0x0000104b: wait
+0x0000104c: or         dword ptr [edi + 0x4d7a5b67], esp
+0x00001052: outsd      dx, dword ptr [esi]
+0x00001053: retf
+0x00001054: popal
+0x00001055: push       0x2d
+0x00001057: rol        esi, 1
+0x00001059: ljmp       0xa3b1:0x85bb7938
+0x00001060: pop        edi
+0x00001061: out        dx, eax
+0x00001063: adc        dword ptr [ecx + eax*4], 0xdd9fa5bf
+0x0000106a: sbb        dl, byte ptr [ebx + 0x6d]
+0x0000106e: mov        cl, byte ptr [edi - 0x4ab69280]
+0x00001074: insd       dword ptr es:[edi], dx
+0x00001075: sbb        eax, edi
+0x00001077: inc        eax
+0x00001078: stosb      byte ptr es:[edi], al
+
+
+================================================================================
+== carved_payload_stage3_x99_deep_decrypted_xorE7_offset000004.bin ==
+================================================================================
+0x00001000: dec        ebp
+0x00001001: pop        edx
+0x00001002: or         al, 0xd2
+0x00001004: jg         0xfb9
+0x00001006: outsb      dx, byte ptr [esi]
+0x00001007: push       eax
+0x00001008: cli
+0x00001009: mov        edi, edi
+0x0000100b: lds        ebx, ptr [edx]
+0x0000100d: adc        eax, dword ptr [ecx]
+0x0000100f: cdq
+0x00001010: add        byte ptr [esi], ah
+0x00001012: imul       ebx, dword ptr [ebx - 0x57], 0x24
+0x00001016: adc        dword ptr [ecx + 0x5b88ac7f], esp
+0x0000101c: cmp        dl, byte ptr [ebx + 0xe96b93d]
+0x00001022: pop        ss
+0x00001023: movsb      byte ptr es:[edi], byte ptr [esi]
+0x00001024: rol        dword ptr [esi - 0x14], 1
+0x00001027: dec        esp
+0x00001028: sahf
+0x00001029: mov        cs, word ptr [ecx + 0x7e6c9883]
+0x0000102f: pop        ebx
+0x00001030: mov        esp, 0x312bc07a
+0x00001035: and        bh, dh
+0x00001037: outsd      dx, dword ptr [esi]
+0x00001038: fptan
+0x0000103a: inc        eax
+0x0000103b: pop        esp
+0x0000103c: outsb      dx, byte ptr [esi]
+0x0000103d: mov        ebx, 0x493793b
+0x00001042: sahf
+0x00001043: and        dword ptr [ecx - 0x37], 0x8f13e2a2
+0x0000104b: or         dword ptr [edx - 0x55def74d], ecx
+0x00001051: aam        0x32
+0x00001053: mov        dl, 0x18
+0x00001055: mov        esi, 0x102f2cca
+0x0000105a: push       ds
+0x0000105b: pop        ecx
+0x0000105c: jo         0xffe
+0x0000105e: xchg       ebp, eax
+0x0000105f: lodsb      al, byte ptr [esi]
+0x00001060: mov        ecx, 0xc0156193
+0x00001065: xor        dh, al
+0x00001067: cdq
+0x00001068: popfd
+0x00001069: cmp        bh, byte ptr [eax - 0x25]
+0x0000106c: sal        dword ptr [esp + edi*8 - 0x29], 1
+0x00001070: inc        edx
+0x00001071: fistp      qword ptr [ecx + 0x6e]
+0x00001074: xchg       byte ptr [ecx + esi*8 - 0x4f], cl
+0x00001078: sal        edi, 0xef
